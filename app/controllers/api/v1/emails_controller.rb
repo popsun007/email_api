@@ -11,7 +11,7 @@ module Api
       private
 
         def email_params
-          params.permit(:to, :subject, :body, :email)
+          params.permit(:to, :subject, :body)
         end
     end
   end
